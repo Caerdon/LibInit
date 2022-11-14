@@ -1,4 +1,4 @@
-# LibInit
+# LibInitRedux
 [API](https://alarofrunetotem.github.io/LibInit/) documentation
 
 [Curseforge](https://wow.curseforge.com/projects/libinit) development site

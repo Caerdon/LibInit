@@ -55,7 +55,7 @@ function dump(tbl)
 	for k,v in pairs(tbl) do print("",k,v) end
 	print("")
 end
-local lib=LibStub("LibInit")
+local lib=LibStub("LibInitRedux")
 local new=lib:Wrap("NewTable")
 local del=lib:Wrap("DelTable")
 data=new()

@@ -1,6 +1,6 @@
 local LibStub=LibStub
-local MAJOR_VERSION="LibInit"
-local libinit,MINOR_VERSION = LibStub("LibInit")
+local MAJOR_VERSION="LibInitRedux"
+local libinit,MINOR_VERSION = LibStub("LibInitRedux")
 if not libinit then return end
 local me=MAJOR_VERSION .. MINOR_VERSION
 local l=LibStub("AceLocale-3.0")

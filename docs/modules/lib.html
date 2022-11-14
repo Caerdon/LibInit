@@ -351,7 +351,7 @@ addon=LibStub(&quot;LibInit&quot;):newAddon(ns,me)
           </div>
             <h3>Usage:</h3>
             <pre class="example"><span class="comment">-- You better upvalue these functions
-</span><span class="keyword">local</span> addon=LibStub(<span class="string">"LibInit"</span>):NewAddon(<span class="string">"myaddon"</span>)
+</span><span class="keyword">local</span> addon=LibStub(<span class="string">"LibInitRedux"</span>):NewAddon(<span class="string">"myaddon"</span>)
 <span class="keyword">local</span> new=addon:Wrap(<span class="string">"NewTable"</span>)
 <span class="keyword">local</span> new=addon:Wrap(<span class="string">"DelTable"</span>)</pre>
     <dl class="function">
@@ -486,14 +486,14 @@ del(t,<span class="keyword">true</span>) <span class="comment">-- will recycle b
     <h3>Usage:</h3>
     <ul>
         <pre class="example"><span class="comment">--Create a simple addon object
-</span>MyAddon = LibStub(<span class="string">"LibInit"</span>):NewAddon(<span class="string">"MyAddon"</span>, <span class="string">"AceEvent-3.0"</span>)
+</span>MyAddon = LibStub(<span class="string">"LibInitRedux"</span>):NewAddon(<span class="string">"MyAddon"</span>, <span class="string">"AceEvent-3.0"</span>)
 
 <span class="comment">-- Create a Addon object based on the table of a frame
 </span><span class="keyword">local</span> MyFrame = CreateFrame(<span class="string">"Frame"</span>)
-MyAddon = LibStub(<span class="string">"LibInit"</span>):NewAddon(MyFrame, <span class="string">"MyAddon"</span>, <span class="string">"AceEvent-3.0"</span>)
+MyAddon = LibStub(<span class="string">"LibInitRedux"</span>):NewAddon(MyFrame, <span class="string">"MyAddon"</span>, <span class="string">"AceEvent-3.0"</span>)
 <span class="comment">-- Create an Addon based on the private table provided by Blizzard Code:
 </span><span class="keyword">local</span> myname,addon = ...
-LibStub(<span class="string">"LibInit"</span>):NewAddon(addon,myname)</pre>
+LibStub(<span class="string">"LibInitRedux"</span>):NewAddon(addon,myname)</pre>
     </ul>
 
 </dd>
@@ -1047,7 +1047,7 @@ LibStub(<span class="string">"LibInit"</span>):NewAddon(addon,myname)</pre>
 
     <h3>Usage:</h3>
     <ul>
-        <pre class="example"><span class="keyword">local</span> C=LibStub(<span class="string">"LibInit"</span>):GetColorTable()
+        <pre class="example"><span class="keyword">local</span> C=LibStub(<span class="string">"LibInitRedux"</span>):GetColorTable()
 C.Azure.c <span class="comment">--returns a string "rrggbb"
 </span>C.Azure.r <span class="comment">--returns red value as a number
 </span>C.Azure.g <span class="comment">--returns green value as a number

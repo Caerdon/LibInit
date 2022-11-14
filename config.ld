@@ -1,9 +1,9 @@
 file = {"LibInit/LibInit.lua","LibInit/factory.lua"}
 format = "lunamark"
-project = "LibInit"
+project = "LibInitRedux"
 dir = "docs"
 title = "LibInit Documentation"
-description = "LibInit should make using ACE3 even more simple and pleasant"
+description = "LibInitRedux should make using ACE3 even more simple and pleasant"
 full_description = [[
 LibInit offers clean methods to build a configuration table instead of directly fiddling with an Ace options table
 Also adds quite a bunch of utilities for often needed tasks

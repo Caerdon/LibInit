@@ -1789,7 +1789,7 @@ local neveropened=true
 function lib:Gui(info)
 	if (AceConfigDialog and AceGUI) then
 		if (neveropened) then
-			InterfaceAddOnsList_Update()
+			-- InterfaceAddOnsList_Update()
 			neveropened=false
 		end
 		InterfaceOptionsFrame_OpenToCategory(self.CfgDlg)
@@ -1801,7 +1801,7 @@ end
 function lib:Help(info)
 	if (AceConfigDialog and AceGUI) then
 		if (neveropened) then
-			InterfaceAddOnsList_Update()
+			-- InterfaceAddOnsList_Update()
 			neveropened=false
 		end
 		InterfaceOptionsFrame_OpenToCategory(self.CfgRel)

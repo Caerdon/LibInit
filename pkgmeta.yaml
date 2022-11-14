@@ -1,4 +1,4 @@
-package-as: LibInit
+package-as: LibInitRedux
 enable-nolib-creation: no
 
 externals:

@@ -2,8 +2,8 @@
 cd $(dirname $0) or exit
 (
 echo 'local LibStub=LibStub'
-echo 'local MAJOR_VERSION="LibInit"'
-echo 'local libinit,MINOR_VERSION = LibStub("LibInit")'
+echo 'local MAJOR_VERSION="LibInitRedux"'
+echo 'local libinit,MINOR_VERSION = LibStub("LibInitRedux")'
 echo 'if not libinit then return end'
 echo 'local me=MAJOR_VERSION .. MINOR_VERSION'
 echo 'local l=LibStub("AceLocale-3.0")'
